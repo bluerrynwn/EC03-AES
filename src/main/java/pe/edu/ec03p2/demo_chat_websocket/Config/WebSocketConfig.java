@@ -1,4 +1,5 @@
-package pe.edu.ec03p2.demo_chat_websocket.config;
+package pe.edu.ec03p2.demo_chat_websocket.Config;
+
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
@@ -16,7 +17,7 @@ public class WebSocketConfig implements
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint(
-                        "/websocket").
+                "/websocket").
                 withSockJS();
     }
 

@@ -1,4 +1,4 @@
-package pe.edu.ec03p2.demo_chat_websocket.chat.model;
+package pe.edu.ec03p2.demo_chat_websocket.Chatsito.Model;
 
 public class Mensaje {
     private TipoMensaje tipo;
