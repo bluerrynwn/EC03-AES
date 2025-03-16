@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
 }
 
-/* Fondo solo cuando se inicia sesioon */
+/* Fondo solo cuando se inicia sesión */
 #chat-page {
     background-image: url('../Images/imagenec3.jpg');
     background-size: cover;
@@ -23,7 +23,7 @@ body {
     display: none;
 }
 
-/* Mostrar el logo solo cuando se este en el chat */
+/* Mostrar el logo solo cuando se esté en el chat */
 #chat-page #logo {
     display: block;
     text-align: center;
