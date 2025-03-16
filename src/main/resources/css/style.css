@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/imagenec3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Fondo solo cuando se inicia sesioon */
+#chat-page {
+    background-image: url('../Images/imagenec3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* Ocultar el logo en la pantalla de inicio de sesión */
+#logo {
+    display: none;
+}
+
+/* Mostrar el logo solo cuando se este en el chat */
+#chat-page #logo {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #000080;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 1px solid #c2d1d9;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #dc7633 ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #ba4a00;
+}
+
+#notificaciones {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #c2d1d9;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #e8f5e9;
+}
+
+#notificaciones p {
+    margin: 5px 0;
+    color: #333;
+}
